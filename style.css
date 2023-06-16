@@ -1,3 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Underdog&display=swap");
+
 body{
     background-image: url(img/GrungeBG.jpg);
+}
+
+
+:root{
+       --headingFont: "Underdog", cursive;
+   --bodyFont: "Quicksand", sans-serif;
+}
+h1{
+font-family: var(--headingFont);
+color:white;
+text-align: center;
+}
+p{
+    font-family: var(--bodyFont);
+    font-size: 0.95rem;
+    color: white;
+    padding: 10px;
+}
+
+section.back{
+    font-family: var(--bodyFont);
+    font-size: 2rem;
+    color:white;
+    padding:10px;
 }
